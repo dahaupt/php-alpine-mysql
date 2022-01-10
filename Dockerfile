@@ -1,4 +1,4 @@
-FROM php:7.4-alpine
+FROM php:8.1-alpine
 
 RUN apk add mariadb-client libzip-dev
 
